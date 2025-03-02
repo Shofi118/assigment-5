@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading the item</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-slate-200">
+    <section class="max-w-6xl min-h-screen mx-auto py-6">
+        <header class="">
+            <nav class="">
+                <div class="flex items-center justify-between mt-5 bg-slate-100 p-3 rounded-3xl">
+                 <div class="flex m-3">
+                     <img src="images/logo.png" alt="">
+                     <h1><span class="text-3xl">Dev</span><span class="text-3xl font-bold">Board</span></h1>
+                 </div>
+                 <button id="bake-btn" class="btn btn-primary">Bake space</button>
+                 
+                </div>
+             </nav>
+        </header>
+        <main>
+           <div class="text-center mt-3">
+            <h1 class="text-3xl font-bold">Blogs</h1>
+           </div>
+           <div class="bg-white m-3 rounded-3xl">
+            <h1 class="text-xl font-bold m-3">Question-1: What are the different ways to select an element in the DOM?
+            </h1>
+            <p class="m-3 mb-2">
+                There are several ways to select an element in the DOM using JavaScript:1. By ID (getElementById),2. By Class Name (getElementsByClassName),3. By Tag Name (getElementsByTagName),4. By Name Attribute (getElementsByName),5. By CSS Selectors (querySelector and querySelectorAll) etc.
+
+
+            </p>
+           </div>
+           <div class="bg-white m-3 rounded-3xl">
+            <h1 class="text-xl font-bold m-3">
+            Question-2: What is the difference between innerHTML, innerText, and textContent ?
+            
+        </h1>
+        <p class="m-3">
+            Property	Definition	Behavior	Performance	Security Risk
+innerHTML	Returns or sets the HTML content inside an element, including any child elements.	Parses and renders HTML tags.	Slower (parses HTML).	High (can be used for XSS attacks).
+innerText	Returns or sets the visible text of an element.	Ignores hidden elements and trims extra spaces.	Moderate (reads computed styles).	Safe (does not interpret HTML).
+textContent	Returns or sets the raw text content, including hidden elements.	Does not interpret or modify whitespace.	Faster (directly reads node data).	Safe (does not interpret HTML).
+
+
+        </p>
+
+           </div>
+           <div class="bg-white m-3 rounded-3xl">
+            <h1 class="text-xl font-bold m-3">
+             Question-3: What is event delegation in the DOM?
+
+            </h1>
+            <p class="m-3">
+                Event delegation is a technique in JavaScript where a parent element handles events for its child elements, even if they are added dynamically. Instead of adding event listeners to multiple child elements, you attach a single event listener to a common ancestor.
+
+
+
+            </p>
+
+           </div>
+           <div class="bg-white m-3 rounded-3xl">
+            <h1 class="text-xl font-bold m-3">
+            Question-4: What is event bubbling in the DOM?
+
+
+            </h1>
+            <p class="m-3">
+                Event bubbling is a behavior in the DOM where an event starts at the target element and propagates (bubbles up) to its ancestors.
+
+            </p>
+
+           </div>
+           <div class="bg-white m-3 rounded-3xl">
+            <h1 class="text-xl font-bold m-3">
+            Question-5: How do you create, add, and remove elements using JavaScript?
+
+            </h1>
+            <p class="m-3"></p>
+            JavaScript provides several methods to create, add, and remove elements dynamically in the DOM.
+
+           </div>
+        </main>
+    </section>
+    <script src="js/min.js"></script>
+</body>
+</html>
